@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimalManagementSystem.MainPage"
+             BackgroundColor="#D6EBC7">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="CenterAndExpand">
+
+            <Label
+              Text="Bienvenue à l’Optimiseur simple de la Nutrition des vaches laitières"
+              FontSize="24"
+              FontAttributes="Bold"
+              TextColor="#000"
+              HorizontalTextAlignment="Center"
+              VerticalOptions="Start"
+              Padding="0, 20, 0, 40" />
+
+            <HorizontalStackLayout Spacing="20" HorizontalOptions="CenterAndExpand">
+
+                <VerticalStackLayout Spacing="20">
+                    <Button
+                      Text="Animal"
+                      BackgroundColor="White"
+                      TextColor="Black"
+                      HeightRequest="60"
+                      FontSize="18"
+                      Command="{Binding NavigateToAnimalCommand}" />
+                    <Button
+                      Text="Ajouter une vache "
+                      BackgroundColor="White"
+                      TextColor="Black"
+                      HeightRequest="60"
+                      FontSize="18"
+                      Command="{Binding NavigateToAddCowCommand}" />
+                    <Button
+                      x:Name="C"
+                      Text="Conseils"
+                      BackgroundColor="White"
+                      TextColor="Black"
+                      HeightRequest="60"
+                      FontSize="18" />
+
+                    <Button
+                      x:Name="F"
+                      Text="Fournisseurs"
+                      BackgroundColor="White"
+                      TextColor="Black"
+                      HeightRequest="60"
+                      FontSize="18" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="20">
+                    <Button
+                      x:Name="CR"
+                      Text="Calcul Ration"
+                      BackgroundColor="White"
+                      TextColor="Black"
+                      HeightRequest="60"
+                      FontSize="18" 
+                      Command="{Binding NavigateToRatioCommand}"/>
+
+                    <Button
+                      x:Name="S"
+                      Text="Statistiques"
+                      BackgroundColor="White"
+                      TextColor="Black"
+                      HeightRequest="60"
+                      FontSize="18" />
+
+                    <Button
+                      x:Name="PM"
+                      Text="Prix marché"
+                      BackgroundColor="White"
+                      TextColor="Black"
+                      HeightRequest="60"
+                      FontSize="18" />
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

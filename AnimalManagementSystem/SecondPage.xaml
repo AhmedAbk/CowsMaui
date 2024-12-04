@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimalManagementSystem.SecondPage"
+             Title="SecondPage"
+             BackgroundColor="#D6EBC7">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Back"  
+                     Clicked="OnBackClicked" />
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="Margin" Value="5,0,0,5" />
+        </Style>
+        <Style TargetType="Entry">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="BackgroundColor" Value="White" />
+            <Setter Property="Margin" Value="0,5,0,5" />
+        </Style>
+    </ContentPage.Resources>
+    
+    <VerticalStackLayout>
+        <Label Text="On commence par le calcul de la capacité d’ingestion de la vache : " />
+        <Label Text="Veuillez saisir :" FontAttributes="Bold" />
+
+        <Label x:Name="poidsLabel1" Text="Poids vif (kg) :" />
+        <Entry Placeholder="Entrez le poids vif">
+            <Entry.Triggers>
+                <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                    <Setter TargetName="poidsLabel1" Property="TextColor" Value="Red" />
+                </Trigger>
+            </Entry.Triggers>
+        </Entry>
+
+        <Label x:Name="MilkProductionLabel" Text="Production en lait (kg) :" />
+        <Entry Placeholder="production en kg">
+            <Entry.Triggers>
+                <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                    <Setter TargetName="MilkProductionLabel" Property="TextColor" Value="Red" />
+                </Trigger>
+            </Entry.Triggers>
+        </Entry>
+
+        <Label x:Name="BodyConditionLabel" Text="Note d’état corporel  :" />
+        <Entry Placeholder="Note d’état corporel ">
+            <Entry.Triggers>
+                <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                    <Setter TargetName="BodyConditionLabel" Property="TextColor" Value="Red" />
+                </Trigger>
+            </Entry.Triggers>
+        </Entry>
+
+        <Label x:Name="ParityLabel" Text="Parité:" />
+        <Entry Placeholder="Parité">
+            <Entry.Triggers>
+                <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                    <Setter TargetName="ParityLabel" Property="TextColor" Value="Red" />
+                </Trigger>
+            </Entry.Triggers>
+        </Entry>
+
+        <Label x:Name="LactationWeekLabel" Text="Semaine de lactation :" />
+        <Entry Placeholder="Semaine de lactation ">
+            <Entry.Triggers>
+                <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                    <Setter TargetName="LactationWeekLabel" Property="TextColor" Value="Red" />
+                </Trigger>
+            </Entry.Triggers>
+        </Entry>
+        <Label x:Name="GestationWeekLabel" Text="Semaine de Gestation :" />
+        <Entry Placeholder="Semaine de Gestation">
+            <Entry.Triggers>
+                <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                    <Setter TargetName="GestationWeekLabel" Property="TextColor" Value="Red" />
+                </Trigger>
+            </Entry.Triggers>
+        </Entry>
+
+        <Label x:Name="AgeLabel" Text="Age :" />
+        <Entry Placeholder="Age en mois">
+            <Entry.Triggers>
+                <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                    <Setter TargetName="AgeLabel" Property="TextColor" Value="Red" />
+                </Trigger>
+            </Entry.Triggers>
+        </Entry>
+
+        <Button Text="ok"/>
+    </VerticalStackLayout>
+</ContentPage>

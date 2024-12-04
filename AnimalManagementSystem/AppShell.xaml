@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AnimalManagementSystem.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AnimalManagementSystem"
+    Shell.FlyoutBehavior="Disabled"
+    Title="AnimalManagementSystem">
+
+    <ShellContent Title="Main Page" ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
+    <ShellContent Title="Animal Page" ContentTemplate="{DataTemplate local:SecondPage}" Route="AnimalPage" />
+    <ShellContent Title="Animal Page" ContentTemplate="{DataTemplate local:AddCow}" Route="AddPage" />
+    <ShellContent Route="calculRation" ContentTemplate="{DataTemplate local:calculRation}" />
+    <ShellContent Title="Fourage" ContentTemplate="{DataTemplate local:Fourrage}" Route="fourage" />
+    <ShellContent Title="Concentré" ContentTemplate="{DataTemplate local:Concentre}" Route="concentre" />
+    <ShellContent Title="Option 1" ContentTemplate="{DataTemplate local:cfourrage}" Route="option1" /> 
+</Shell>

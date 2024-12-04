@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|c:\\users\\asus\\source\\repos\\animalmanagementsystem\\animalmanagementsystem\\cfourrage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|solutionrelative:animalmanagementsystem\\cfourrage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|c:\\users\\asus\\source\\repos\\animalmanagementsystem\\animalmanagementsystem\\cfourrage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|solutionrelative:animalmanagementsystem\\cfourrage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|c:\\users\\asus\\source\\repos\\animalmanagementsystem\\animalmanagementsystem\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|solutionrelative:animalmanagementsystem\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|c:\\users\\asus\\source\\repos\\animalmanagementsystem\\animalmanagementsystem\\fourrage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|solutionrelative:animalmanagementsystem\\fourrage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|c:\\users\\asus\\source\\repos\\animalmanagementsystem\\animalmanagementsystem\\fourrage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|solutionrelative:animalmanagementsystem\\fourrage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|c:\\users\\asus\\source\\repos\\animalmanagementsystem\\animalmanagementsystem\\calculration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|solutionrelative:animalmanagementsystem\\calculration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|c:\\users\\asus\\source\\repos\\animalmanagementsystem\\animalmanagementsystem\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|solutionrelative:animalmanagementsystem\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|c:\\users\\asus\\source\\repos\\animalmanagementsystem\\animalmanagementsystem\\calculration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265A9084-06DF-479E-9C8F-9259D34B529C}|AnimalManagementSystem\\AnimalManagementSystem.csproj|solutionrelative:animalmanagementsystem\\calculration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cfourrage.xaml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\cfourrage.xaml",
+              "RelativeDocumentMoniker": "AnimalManagementSystem\\cfourrage.xaml",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\cfourrage.xaml",
+              "RelativeToolTip": "AnimalManagementSystem\\cfourrage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T23:27:25.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cfourrage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\cfourrage.xaml.cs",
+              "RelativeDocumentMoniker": "AnimalManagementSystem\\cfourrage.xaml.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\cfourrage.xaml.cs",
+              "RelativeToolTip": "AnimalManagementSystem\\cfourrage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:27:23.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fourrage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\Fourrage.xaml.cs",
+              "RelativeDocumentMoniker": "AnimalManagementSystem\\Fourrage.xaml.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\Fourrage.xaml.cs",
+              "RelativeToolTip": "AnimalManagementSystem\\Fourrage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:26:31.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Fourrage.xaml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\Fourrage.xaml",
+              "RelativeDocumentMoniker": "AnimalManagementSystem\\Fourrage.xaml",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\Fourrage.xaml",
+              "RelativeToolTip": "AnimalManagementSystem\\Fourrage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T23:25:13.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AnimalManagementSystem\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\AppShell.xaml.cs",
+              "RelativeToolTip": "AnimalManagementSystem\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:21:14.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AnimalManagementSystem\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\AppShell.xaml",
+              "RelativeToolTip": "AnimalManagementSystem\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T23:20:57.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "calculRation.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\calculRation.xaml.cs",
+              "RelativeDocumentMoniker": "AnimalManagementSystem\\calculRation.xaml.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\calculRation.xaml.cs",
+              "RelativeToolTip": "AnimalManagementSystem\\calculRation.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:20:02.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "calculRation.xaml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\calculRation.xaml",
+              "RelativeDocumentMoniker": "AnimalManagementSystem\\calculRation.xaml",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AnimalManagementSystem\\AnimalManagementSystem\\calculRation.xaml",
+              "RelativeToolTip": "AnimalManagementSystem\\calculRation.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T19:40:02.671Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

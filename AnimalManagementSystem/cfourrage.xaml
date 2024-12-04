@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimalManagementSystem.cfourrage"
+             Title="cfourrage">
+    
+    
+    <VerticalStackLayout Padding="10">
+        <Label Text="Fourrages et %MS" FontSize="20" HorizontalOptions="Center" />
+        <Label Text="Enter CI (Capacity of Ingestion)" FontSize="16"  />
+        <Entry x:Name="CIEntry" Placeholder="Enter CI" Keyboard="Numeric" />
+        <Label Text="Kg MS = Kg MB * %MS" FontSize="16" />
+
+        <Button 
+            Text="Calculate" 
+            Clicked="OnCalculateClicked" 
+            BackgroundColor="Black" 
+            TextColor="White"
+            WidthRequest="200" 
+            HeightRequest="50" />
+
+        <Label x:Name="ResultLabel" FontSize="16" TextColor="Red" />
+    </VerticalStackLayout>
+    
+</ContentPage> 
