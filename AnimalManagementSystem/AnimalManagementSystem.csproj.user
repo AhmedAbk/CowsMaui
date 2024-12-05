@@ -6,22 +6,19 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="AddCow.xaml">
+    <MauiXaml Update="View\calculFourrage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="calculRation.xaml">
+    <MauiXaml Update="View\Concentre.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="cfourrage.xaml">
+    <MauiXaml Update="View\Fourrage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Concentre.xaml">
+    <MauiXaml Update="View\Ratio.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Fourrage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="SecondPage.xaml">
+    <MauiXaml Update="View\SecondPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
@@ -30,9 +27,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Update="AppShell.xaml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="MainPage.xaml">
       <SubType>Designer</SubType>
     </None>
     <None Update="Platforms\Windows\App.xaml">

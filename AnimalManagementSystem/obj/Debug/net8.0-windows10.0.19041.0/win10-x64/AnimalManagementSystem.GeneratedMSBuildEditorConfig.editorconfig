@@ -12,12 +12,6 @@ build_property.ProjectDir = C:\Users\Asus\source\repos\AnimalManagementSystem\An
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/AddCow.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.AddCow.xaml
-build_metadata.AdditionalFiles.TargetPath = AddCow.xaml
-build_metadata.AdditionalFiles.RelativePath = AddCow.xaml
-
 [C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.App.xaml
@@ -29,36 +23,6 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
-
-[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/calculRation.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.calculRation.xaml
-build_metadata.AdditionalFiles.TargetPath = calculRation.xaml
-build_metadata.AdditionalFiles.RelativePath = calculRation.xaml
-
-[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/cfourrage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.cfourrage.xaml
-build_metadata.AdditionalFiles.TargetPath = cfourrage.xaml
-build_metadata.AdditionalFiles.RelativePath = cfourrage.xaml
-
-[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/Concentre.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.Concentre.xaml
-build_metadata.AdditionalFiles.TargetPath = Concentre.xaml
-build_metadata.AdditionalFiles.RelativePath = Concentre.xaml
-
-[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/Fourrage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.Fourrage.xaml
-build_metadata.AdditionalFiles.TargetPath = Fourrage.xaml
-build_metadata.AdditionalFiles.RelativePath = Fourrage.xaml
-
-[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
 [C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -72,8 +36,38 @@ build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.Res
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/SecondPage.xaml]
+[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/View/calculFourrage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.SecondPage.xaml
-build_metadata.AdditionalFiles.TargetPath = SecondPage.xaml
-build_metadata.AdditionalFiles.RelativePath = SecondPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.View.calculFourrage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\calculFourrage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\calculFourrage.xaml
+
+[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/View/Concentre.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.View.Concentre.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Concentre.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Concentre.xaml
+
+[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/View/Fourrage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.View.Fourrage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Fourrage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Fourrage.xaml
+
+[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/View/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.View.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
+
+[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/View/Ratio.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.View.Ratio.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Ratio.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Ratio.xaml
+
+[C:/Users/Asus/source/repos/AnimalManagementSystem/AnimalManagementSystem/View/SecondPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AnimalManagementSystem.View.SecondPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\SecondPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\SecondPage.xaml

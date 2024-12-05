@@ -183,3 +183,4 @@ C:\Users\Asus\source\repos\AnimalManagementSystem\AnimalManagementSystem\bin\Deb
 C:\Users\Asus\source\repos\AnimalManagementSystem\AnimalManagementSystem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\Asus\source\repos\AnimalManagementSystem\AnimalManagementSystem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
 C:\Users\Asus\source\repos\AnimalManagementSystem\AnimalManagementSystem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
+C:\Users\Asus\source\repos\AnimalManagementSystem\AnimalManagementSystem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AnimalManagementSystem.sourcelink.json

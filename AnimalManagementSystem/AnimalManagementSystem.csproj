@@ -65,22 +65,25 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="AddCow.xaml">
+	  <Compile Update="View\calculFourrage.xaml.cs">
+	    <DependentUpon>calculFourrage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="View\calculFourrage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="calculRation.xaml">
+	  <MauiXaml Update="View\Concentre.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="cfourrage.xaml">
+	  <MauiXaml Update="View\Fourrage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Concentre.xaml">
+	  <MauiXaml Update="View\Ratio.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Fourrage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="SecondPage.xaml">
+	  <MauiXaml Update="View\SecondPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

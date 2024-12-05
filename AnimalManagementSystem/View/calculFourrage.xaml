@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimalManagementSystem.View.calculFourrage"
+             xmlns:viewmodels="clr-namespace:AnimalManagementSystem.ViewModel"
+             Title="cfourrage"
+             BackgroundColor="Grey">
+
+    <ContentPage.BindingContext>
+        <viewmodels:ForageCalculatorViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid RowDefinitions="Auto,*,Auto" Padding="20">
+      
+        <Frame Grid.Row="0"
+               BackgroundColor="#4CAF50"
+               CornerRadius="15"
+               Padding="20"
+               Margin="0,20,0,40"
+               HasShadow="True">
+            <VerticalStackLayout Spacing="10">
+                <Label Text="Calcul de Ration"
+                       TextColor="White"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                <Entry Placeholder="Capacité d'ingestion (CI)"
+                       Text="{Binding IngestionCapacity, Mode=TwoWay}"
+                       Keyboard="Numeric"
+                       TextColor="White"
+                       PlaceholderColor="LightGray"/>
+            </VerticalStackLayout>
+        </Frame> 
+        <CollectionView Grid.Row="1" 
+                        ItemsSource="{Binding Forages}"
+                        Margin="0,10">
+            <CollectionView.Header>
+                <Grid ColumnDefinitions="*,Auto,Auto,Auto" 
+                      Padding="10"
+                      BackgroundColor="#4CAF50">
+                    <Label Text="Aliment" TextColor="White" FontAttributes="Bold"/>
+                    <Label Text="%MS" Grid.Column="1" TextColor="White" FontAttributes="Bold"/>
+                    <Label Text="Kg MB" Grid.Column="2" TextColor="White" FontAttributes="Bold"/>
+                    <Label Text="Kg MS" Grid.Column="3" TextColor="White" FontAttributes="Bold"/>
+                </Grid>
+            </CollectionView.Header>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid ColumnDefinitions="*,Auto,Auto,Auto" 
+                          Padding="10">
+                        <Label Text="{Binding Name}"/>
+                        <Label Text="{Binding PercentageMS}" 
+                               Grid.Column="1"/>
+                        <Entry Text="{Binding KgMB, Mode=TwoWay}"
+                               Grid.Column="2"
+                               Keyboard="Numeric"
+                               WidthRequest="80"/>
+                        <Label Text="{Binding KgMs, StringFormat='{0:F2}'}"
+                               Grid.Column="3"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView> 
+        <VerticalStackLayout Grid.Row="2" Spacing="10">
+            <Label Text="{Binding TotalDryMatter, StringFormat='Total MS: {0:F2} kg'}"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="{Binding AlertMessage}"
+                   TextColor="{Binding AlertColor}"
+                   FontSize="16"
+                   HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

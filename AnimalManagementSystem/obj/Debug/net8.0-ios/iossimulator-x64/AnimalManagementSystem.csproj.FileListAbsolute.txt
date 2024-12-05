@@ -317,3 +317,4 @@ C:\Users\Asus\source\repos\AnimalManagementSystem\AnimalManagementSystem\obj\Deb
 C:\Users\Asus\source\repos\AnimalManagementSystem\AnimalManagementSystem\obj\Debug\net8.0-ios\iossimulator-x64\AnimalManagementSystem.pdb
 C:\Users\Asus\source\repos\AnimalManagementSystem\AnimalManagementSystem\obj\Debug\net8.0-ios\iossimulator-x64\AnimalManagementSystem.genruntimeconfig.cache
 C:\Users\Asus\source\repos\AnimalManagementSystem\AnimalManagementSystem\obj\Debug\net8.0-ios\iossimulator-x64\ref\AnimalManagementSystem.dll
+C:\Users\Asus\source\repos\AnimalManagementSystem\AnimalManagementSystem\obj\Debug\net8.0-ios\iossimulator-x64\AnimalManagementSystem.sourcelink.json

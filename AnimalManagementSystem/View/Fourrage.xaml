@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimalManagementSystem.View.Fourrage"
+             Title="Fourrage"
+             BackgroundColor="#F5F5F5">
+
+    <Grid RowDefinitions="Auto,*,Auto"
+          Padding="20">
+ 
+        <Frame Grid.Row="0"
+               BackgroundColor="#4CAF50"
+               CornerRadius="15"
+               Padding="20"
+               Margin="0,20,0,40"
+               HasShadow="True">
+            <Label Text="Gestion du Fourrage"
+                   TextColor="White"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"/>
+        </Frame>
+ 
+        <VerticalStackLayout Grid.Row="1"
+                            Spacing="25"
+                            VerticalOptions="Center">
+
+            <Frame BackgroundColor="White"
+                   CornerRadius="15"
+                   HasShadow="True"
+                   Padding="0">
+                <Button Text="Choisir un fourrage existant dans la liste"
+                        BackgroundColor="Transparent"
+                        TextColor="#2E7D32"
+                        FontSize="18"
+                        HeightRequest="80"
+                        Clicked="OnOption1Clicked">
+                    <Button.Shadow>
+                        <Shadow Brush="#22000000"
+                               Offset="0,3"
+                               Radius="5"/>
+                    </Button.Shadow>
+                </Button>
+            </Frame>
+
+            <Frame BackgroundColor="White"
+                   CornerRadius="15"
+                   HasShadow="True"
+                   Padding="0">
+                <Button Text="Saisir un fourrage grâce à vos résultats"
+                        BackgroundColor="Transparent"
+                        TextColor="#2E7D32"
+                        FontSize="18"
+                        HeightRequest="80"
+                        Clicked="OnOption2Clicked">
+                    <Button.Shadow>
+                        <Shadow Brush="#22000000"
+                               Offset="0,3"
+                               Radius="5"/>
+                    </Button.Shadow>
+                </Button>
+            </Frame>
+
+        </VerticalStackLayout>
+ 
+        <Label Grid.Row="2"
+               Text="Sélectionnez une option pour continuer"
+               TextColor="#666666"
+               FontSize="14"
+               HorizontalTextAlignment="Center"
+               Margin="0,20,0,0"/>
+
+    </Grid>
+</ContentPage>
